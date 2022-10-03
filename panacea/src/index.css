@@ -5,3 +5,8 @@
 body{
   background-color: white;
 }
+
+h3,a{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
