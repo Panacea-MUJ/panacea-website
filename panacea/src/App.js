@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "./components/navbar";
-import Events from "./components/Events";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Events />
+      <Footer />
+      
+      
     </div>
   );
 }
