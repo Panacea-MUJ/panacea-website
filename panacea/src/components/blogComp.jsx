@@ -1,5 +1,5 @@
 import React from 'react';
-import eventsbg from '../components/eventsbg.jpg';
+import blogsbg from '../components/blogsbg.jpg';
 import blogsTitle from '../components/blogsTitle.png';
 
 
@@ -9,7 +9,7 @@ const BlogComp = () =>{
     return(
         <>
         <div className="">
-            <img src={eventsbg} alt="homebg" className='h-2/6' style={{display:"relative"}}></img>
+            <img src={blogsbg} alt="blogbg" className='h-1/6' style={{display:"relative"}}></img>
             <div>
                 <img className="absolute inset-y-16 h-[20em] pt-56 pl-10" src={blogsTitle} alt="titlePanacea" />
             <p className='absolute inset-y-[16.5em] text-white text-2xl font-thin pl-[2em]'>Latest information on all our events.</p>

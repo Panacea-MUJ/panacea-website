@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+
+body{
+  background-color: black;
+}
+
+.bg-footer {
+  background-color: black;
+}
+
+.footer-width {
+  width: 100% !important;
+}
+
+.ul-list {
+  display: flex;
+}
+
+.li-social {
+  background-color: #7879F1;
+  color: white;
+  padding: 10px; 
+  margin: 0px 10px 0px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.li-social:hover {
+  background-color: #5e5eb4;
+  color: rgb(212, 212, 212);
+}
+
+/* Agency */
+.panacea-logo-text {
+  font-family: 'Righteous', cursive; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 32px;
+  color: white;
+  
+}
+
+.li-heading {
+  font-family: 'Epilogue', sans-serif !important;
+  font-style: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .shrink-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+  }
+}
+
+p {
+  color: rgb(135, 135, 135);
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,18 +1,16 @@
 import {Outlet} from "react-router-dom";
 import Navbar from "../components/navbar";
-import BlogComp from "../components/blogComp";
-import Blog from "../components/blog";
+import AboutComp from "../components/aboutComp";
+import About from "../components/about";
 import Footer from "../components/footer";
 
-
-const home = () => {
+const aboutUs = () => {
     return (
         <>
         <Navbar></Navbar>
-        <BlogComp />
-        <Blog />
+        <AboutComp />
+        <About></About>
         <Footer />
-        
 
         
 
@@ -29,4 +27,4 @@ const home = () => {
 
 }
 
-export default home;
+export default aboutUs;

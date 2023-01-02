@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import NoPage from './pages/NoPage';
 import Events from './pages/Events';
 import Blog from './pages/Blog';
+import About from './pages/About';
 // import App from './App';
 
 export default function App() {
@@ -18,6 +19,8 @@ export default function App() {
         </Route>
         <Route path="/events" element={<Events />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   );
