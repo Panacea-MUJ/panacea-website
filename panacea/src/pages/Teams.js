@@ -1,7 +1,8 @@
 import {Outlet} from "react-router-dom";
 import Navbar from "../components/navbar";
-import BlogComp from "../components/blogComp";
-import Blog from "../components/blog";
+import TeamComp from "../components/TeamComp";
+import ExecTeams from "../components/execteam";
+import CoreTeams from "../components/coreteam";
 import Footer from "../components/footer";
 
 
@@ -9,11 +10,10 @@ const home = () => {
     return (
         <>
         <Navbar></Navbar>
-        <BlogComp />
-        <Blog />
+        <TeamComp />
+        <ExecTeams />
+        <CoreTeams />
         <Footer />
-    
-       
 
         <Outlet />
         </>

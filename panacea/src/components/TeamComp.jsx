@@ -5,7 +5,7 @@ import blogsTitle from '../components/blogsTitle.png';
 
 
 
-const BlogComp = () =>{
+const TeamComp = () =>{
     return(
         <>
         <div className="">
@@ -22,4 +22,4 @@ const BlogComp = () =>{
     )
 }
 
-export default BlogComp;
+export default TeamComp;
