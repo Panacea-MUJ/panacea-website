@@ -2,65 +2,45 @@ import React from 'react';
 
 const HighlightBlog = () => {
     return (
-        <section>
-        <div className="h-32"></div>
-        <div className="container px-4 mx-auto">
-        <div className="flex flex-wrap">
+        <section class="bg-white dark:bg-black">
+    <div class="container px-6 py-10 mx-auto">
+        <div class="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
+            <div>
+                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""></img>
 
-            <div className="w-full px-4 flex-1">
-                <div className='h-96 w-5/6'>
-                <div className='rounded bg-cover w-full h-full' style={{ 
-                backgroundImage: `url("https://images.unsplash.com/photo-1454923634634-bd1614719a7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60")` 
-                }}>
+                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900 hover:bg-blue-900 ">
+                    <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                        All the features you want to know
+                    </a>
 
-                </div>
-                </div>
-            <div className="text-sm block my-4 p-3 text-white h-48 w-4/5">
-                <h1 className="text-xl mt-1">Stories</h1>
-                <h4 className='text-l mt-1'>29<sup>th</sup> Sept 2022</h4>
-                <h3 className="text-3xl mt-1 ">Performance Marketing Agencies Capitalise </h3>
-            </div>
-            </div>
-            <div className="w-full px-4 flex-1">
-                <div className='h-96 w-5/6'>
-                    <div className='rounded bg-cover w-full h-full' style={{ 
-                    backgroundImage: `url("https://images.unsplash.com/photo-1524041255072-7da0525d6b34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60")` 
-                    }}>
-                        
-                    </div>
-                    </div>
-            <div className="text-sm block my-4 p-3 text-white h-48 w-4/5">
-                <h1 className="text-xl mt-1">Design</h1>
-                <h4 className='text-l mt-1'>29<sup>th</sup> September 2022</h4>
-                <h3 className="text-3xl mt-1">Digital marketing channels </h3>
+                    <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
+                        laudantium quia tempore delect
+                    </p>
 
-            <div className="w-full px-4 flex-1 bg-cover">
-                <div className='w-5/6'>
-                    <img className="rounded" src="https://images.unsplash.com/photo-1566338185621-4fa7376c7483?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                    <p class="mt-3 text-sm text-blue-500">21 October 2019</p>
                 </div>
-            <div className="text-sm block my-4 p-3 text-white h-48 w-4/5">
-                <h1 className="text-xl">Category</h1>
-                <h3 className="text-3xl ">Performance Marketing Agencies Capitalise </h3>
-                <h4 className='text-xl'>29<sup>th</sup> September 2022</h4>
             </div>
-            </div>
-            <div className="w-full px-4 flex-1">
-                <div className='w-5/6'>
-                    <img className="rounded" src="https://images.unsplash.com/photo-1566338185621-4fa7376c7483?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+
+            <div>
+                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""></img>
+
+                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900 hover:bg-blue-900 ">
+                    <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                        How to use sticky note for problem solving
+                    </a>
+
+                    <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
+                        laudantium quia tempore delect
+                    </p>
+
+                    <p class="mt-3 text-sm text-blue-500">20 October 2019</p>
                 </div>
-            <div className="text-sm block my-4 p-3 text-white h-48 w-4/5">
-                <h1 className="text-xl">Category</h1>
-                <h3 className="text-3xl ">Performance Marketing Agencies Capitalise </h3>
-                <h4 className='text-xl'>29<sup>th</sup> September 2022</h4>
-            </div>
             </div>
         </div>
-        </div>
-        <div className='w-screen flex justify-center'>
-            <hr className='w-5/6'/>
-        </div>
-
-        </section>
+    </div>
+</section>
     )
 }
 

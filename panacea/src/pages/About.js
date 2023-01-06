@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import AboutComp from "../components/aboutComp";
 import About from "../components/about";
 import Footer from "../components/footer";
+import Contact from "../components/Contact";
 
 const aboutUs = () => {
     return (
@@ -10,6 +11,7 @@ const aboutUs = () => {
         <Navbar></Navbar>
         <AboutComp />
         <About></About>
+        <Contact/>
         <Footer />
 
         

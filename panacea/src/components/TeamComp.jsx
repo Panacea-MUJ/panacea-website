@@ -8,16 +8,26 @@ import blogsTitle from '../components/blogsTitle.png';
 const TeamComp = () =>{
     return(
         <>
-        <div className="">
-            <img src={blogsbg} alt="blogbg" className='h-1/6' style={{display:"relative", width: "100%", height: "100%"}}></img>
-            <div>
-                <img className="absolute inset-y-16 h-[20em] pt-56 pl-10" src={blogsTitle} alt="titlePanacea" />
-            <p className='absolute inset-y-[16.5em] text-white text-2xl font-thin pl-[2em]'>Latest information on all our events.</p>
-
-            <button className="absolute text-white inset-y-[30em] inset-x-[10em] rounded-md w-32 h-10 bg-gradient-to-r from-purple-500 to-blue-500">Join Us</button>
-            </div>
-            
+        <section
+      class="z-40 min-h-[100vh] relative text-neutral-50 pt-16 px-4 md:px-8 overflow-hidden 2xl:px-60 mx-auto grid grid-cols-1 gap-8 lg:grid-cols-12 relative bg-cover bg-[url('https://i.imgur.com/617BYu8.jpeg')]">
+      <div
+        class="col-span-6 xl:place-self-top mb-8 pt-[20%] xl:mt-0 lg:mb-0 z-50"
+      >
+        <h1
+          class="title-font sm:text-9xl text-8xl mb-4 font-medium text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-500 hero"
+        >
+          Teams.
+        </h1>
+        <p
+          class="my-8 max-w-lg mx-auto lg:mx-0 text-center lg:text-left opacity-100 text-xl"
+        >
+          The wonderful people behind the club.
+        </p>
+        <div class="flex flex-col lg:flex-row items-center">
+        <button class="inline-flex text-white bg-gradient-to-r from-indigo-500 to-cyan-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Join Us.</button>
         </div>
+      </div>
+    </section>
         </>
     )
 }

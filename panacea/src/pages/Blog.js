@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import BlogComp from "../components/blogComp";
 import Blog from "../components/blog";
 import Footer from "../components/footer";
+import HighlightBlog from "../components/highlightblog";
 
 
 const home = () => {
@@ -10,6 +11,7 @@ const home = () => {
         <>
         <Navbar></Navbar>
         <BlogComp />
+        <HighlightBlog/>
         <Blog />
         <Footer />
     
