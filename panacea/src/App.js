@@ -13,6 +13,7 @@ function App() {
   return (
     <section>
     <div className="bg-black">
+      
       <Navbar />
 
 
