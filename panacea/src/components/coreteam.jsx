@@ -13,8 +13,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Samridh Srivastva</h2>
+            <h3 class="text-gray-500 mb-3">Technical Head</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
@@ -45,8 +45,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Ritvik Garg</h2>
+            <h3 class="text-gray-500 mb-3">Events Head</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
@@ -72,8 +72,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Parthi Vishnawat</h2>
+            <h3 class="text-gray-500 mb-3">Head of Projects</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
@@ -99,8 +99,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Diljot Singh Baweja</h2>
+            <h3 class="text-gray-500 mb-3">Content Head</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
@@ -128,8 +128,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Harshit Saha</h2>
+            <h3 class="text-gray-500 mb-3">Head of Membership</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words!</p>
             <span class="inline-flex">
               <a class="text-gray-700">
@@ -160,8 +160,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Chhavi Maheshwari</h2>
+            <h3 class="text-gray-500 mb-3">Head of Membership</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
@@ -187,8 +187,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Akash Aggarwal</h2>
+            <h3 class="text-gray-500 mb-3">Head of Social Media</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
@@ -214,8 +214,8 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
+            <h2 class="title-font font-medium text-lg text-white">Aditya Brijwasi</h2>
+            <h3 class="text-gray-500 mb-3">Head of promotions and Outreach</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
