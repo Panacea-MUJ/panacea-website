@@ -1,4 +1,12 @@
 import React from 'react';
+import sam from '../images/Samridh.jpg'
+import ritvik from '../images/Ritvik Garg.jpg'
+import parthi from '../images/Parthi.jpg'
+import harshit from '../images/HarshitSaha.jpg'
+import akash from '../images/AkashAggarwal.jpg'
+import chhavi from '../images/Chhavi.jpeg'
+import sid from '../images/Siddhanth Bhat-Design.jpg'
+
 
 const Team = () => {
     return (
@@ -11,9 +19,9 @@ const Team = () => {
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={sam}></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Samridh Srivastva</h2>
+            <h2 class="title-font font-medium text-lg text-white">Samridh Srivastava</h2>
             <h3 class="text-gray-500 mb-3">Technical Head</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
@@ -43,11 +51,11 @@ const Team = () => {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={ritvik}></img>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Ritvik Garg</h2>
             <h3 class="text-gray-500 mb-3">Events Head</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
+            <p class="mb-4">Let's go and eat something first.😂</p>
             <span class="inline-flex">
               <a class="text-gray-700">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -70,7 +78,7 @@ const Team = () => {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={parthi}></img>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Parthi Vishnawat</h2>
             <h3 class="text-gray-500 mb-3">Head of Projects</h3>
@@ -99,7 +107,7 @@ const Team = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Diljot Singh Baweja</h2>
+            <h2 class="title-font font-medium text-lg text-white">Tanishk</h2>
             <h3 class="text-gray-500 mb-3">Content Head</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
@@ -126,7 +134,7 @@ const Team = () => {
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={harshit}></img>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Harshit Saha</h2>
             <h3 class="text-gray-500 mb-3">Head of Membership</h3>
@@ -158,7 +166,7 @@ const Team = () => {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={chhavi}></img>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Chhavi Maheshwari</h2>
             <h3 class="text-gray-500 mb-3">Head of Membership</h3>
@@ -185,7 +193,7 @@ const Team = () => {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={akash}></img>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Akash Aggarwal</h2>
             <h3 class="text-gray-500 mb-3">Head of Social Media</h3>
@@ -212,121 +220,11 @@ const Team = () => {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={sid}></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Aditya Brijwasi</h2>
-            <h3 class="text-gray-500 mb-3">Head of promotions and Outreach</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
-            <span class="inline-flex">
-              <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"></img>
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
-            <span class="inline-flex">
-              <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"></img>
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
-            <span class="inline-flex">
-              <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"></img>
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
-            <span class="inline-flex">
-              <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"></img>
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanuj Kothari</h2>
-            <h3 class="text-gray-500 mb-3">President</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
+            <h2 class="title-font font-medium text-lg text-white">Siddhanth Bhat</h2>
+            <h3 class="text-gray-500 mb-3">Head of Design and Graphics</h3>
+            <p class="mb-4">Life is soup, I am fork.</p>
             <span class="inline-flex">
               <a class="text-gray-700">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

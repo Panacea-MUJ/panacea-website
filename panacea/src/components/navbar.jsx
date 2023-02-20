@@ -75,6 +75,9 @@ export default function NavBar() {
                             <li className="text-white hover:text-indigo-200">
                             <Link className='p-4 text-white hover:text-blue-500' to="/blog">Blog</Link>
                             </li>
+                            <li className="text-white hover:text-indigo-200">
+                            <Link className='p-4 text-white hover:text-blue-500' to="/study">Study</Link>
+                            </li>
                         </ul>
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
@@ -88,7 +91,7 @@ export default function NavBar() {
                     </div>
                 </div>
                 <div className="hidden space-x-2 md:inline-block">
-                    <img className="rounded min-h-fit h-6 mt-5 mr-5 absolute top-0 right-0" src={search} alt="" />  
+                    {/* <img className="rounded min-h-fit h-6 mt-5 mr-5 absolute top-0 right-0" src={search} alt="" />   */}
                 </div>
             </div>
         </nav>

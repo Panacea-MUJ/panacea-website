@@ -8,6 +8,7 @@ import Events from './pages/Events';
 import Blog from './pages/Blog';
 import About from './pages/About';
 import Teams from './pages/Teams'
+import Study from './pages/Study'
 // import App from './App';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Teams />} />
+        <Route path="/study" element={<Study />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

@@ -1,4 +1,5 @@
 import React from 'react';
+import eventData from '../constants/eventData';
 
 
 const Events = () => {
@@ -10,9 +11,9 @@ const Events = () => {
         <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"></img>
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-white mb-3">Event Title</h1>
-            <p class="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sint illo quod rem minima soluta, porro sit, deserunt numquam iusto consequuntur molestias magnam similique accusamus natus officiis. Quasi, saepe est.</p>
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">{eventData[0].category}</h2>
+            <h1 class="title-font text-lg font-medium text-white mb-3">{eventData[0].eventTitle}</h1>
+            <p class="leading-relaxed mb-3">{eventData[0].summary}</p>
             <div class="flex items-center flex-wrap ">
               <a class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0" href='link'>
               <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Sign Up</button>
