@@ -4,10 +4,11 @@ import dhaka from '../images/DhakaSir.jpg'
 const CceDirector = () => {
   return (
     <section class="text-gray-400 bg-black body-font">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="text-3xl font-medium title-font mb-4 text-white">Director of CCE</h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nisi nostrum, quis, molestiae magni eius adipisci enim, aspernatur id alias voluptatibus doloremque. Nobis dicta distinctio, omnis cumque magnam cupiditate neque.</p>
+          <h1 class="text-3xl font-medium title-font mb-4 text-white pt-8">Director of CCE</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Prof. V S Dhaka is a seasoned academician with a flair for entrepreneurial spirit. He enjoys a persistent passion for continuous learning for self and students’ growth. He has more than 16 years of experience in the software industry, academics, research, teaching, and training. He is a true inspiration to us at Panacea and is a testament to innovation being rewarded.
+</p>
         </div>
         <div class="flex flex-wrap -m-4 justify-around">
           <div class="p-4 lg:w-1/4 md:w-1/2">

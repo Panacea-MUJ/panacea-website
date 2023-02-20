@@ -9,7 +9,7 @@ const Team = () => {
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="text-3xl font-medium title-font mb-4 text-white">EXECUTIVE</h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nisi nostrum, quis, molestiae magni eius adipisci enim, aspernatur id alias voluptatibus doloremque. Nobis dicta distinctio, omnis cumque magnam cupiditate neque.</p>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">The cream of the crop, our executive team represents true innovation, persistence and a commitment to perfection like no one else. The brains behind our operations, they provide the overhead insight into the integration among the different teams in our club</p>
         </div>
         <div class="flex flex-wrap -m-4">
           <div class="p-4 lg:w-1/4 md:w-1/2">

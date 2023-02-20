@@ -14,7 +14,7 @@ const Team = () => {
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="text-3xl font-medium title-font mb-4 text-white">CORE</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nisi nostrum, quis, molestiae magni eius adipisci enim, aspernatur id alias voluptatibus doloremque. Nobis dicta distinctio, omnis cumque magnam cupiditate neque.</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">The backbone of Panacea, our core team consists of individuals who have risen to the top of their teams through hard work and results, bringing a touch of class and finesse to everything they work on.</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
