@@ -26,19 +26,13 @@ const Team = () => {
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+              <i class="fa fa-brands fa-instagram"></i>
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
+              <i class="fa fa-solid fa-link"></i>
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
+              <i class="fa fa-brands fa-linkedin"></i>
               </a>
             </span>
           </div>
@@ -58,19 +52,16 @@ const Team = () => {
             <p class="mb-4">Let's go and eat something first.😂</p>
             <span class="inline-flex">
               <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-twitter"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-linkedin"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-instagram"></i>
+
               </a>
             </span>
           </div>
@@ -85,19 +76,16 @@ const Team = () => {
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-twitter"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-linkedin"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-instagram"></i>
+
               </a>
             </span>
           </div>
@@ -105,26 +93,23 @@ const Team = () => {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"></img>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={akash}></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Tanishk</h2>
-            <h3 class="text-gray-500 mb-3">Content Head</h3>
+            <h2 class="title-font font-medium text-lg text-white">Akash Agarwal</h2>
+            <h3 class="text-gray-500 mb-3">Head of Social Media</h3>
             <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-twitter"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-linkedin"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-instagram"></i>
+
               </a>
             </span>
           </div>
@@ -141,19 +126,16 @@ const Team = () => {
             <p class="mb-4">Some caption provided by user, 10-15 words!</p>
             <span class="inline-flex">
               <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-twitter"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-linkedin"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-instagram"></i>
+
               </a>
             </span>
           </div>
@@ -169,50 +151,16 @@ const Team = () => {
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={chhavi}></img>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Chhavi Maheshwari</h2>
-            <h3 class="text-gray-500 mb-3">Head of Membership</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
+            <h3 class="text-gray-500 mb-3">Head of Outreach</h3>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+              <p class="mb-4 underline">The Office: S1 E6 1:40</p>
+            </a>
             <span class="inline-flex">
-              <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+              <a class="text-gray-700" href='https://www.instagram.com/chhavi30m/' >
+              <i class="fa fa-brands fa-instagram"></i>
               </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src={akash}></img>
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Akash Aggarwal</h2>
-            <h3 class="text-gray-500 mb-3">Head of Social Media</h3>
-            <p class="mb-4">Some caption provided by user, 10-15 words</p>
-            <span class="inline-flex">
-              <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
+              <a class="ml-2 text-gray-700" href='https://www.linkedin.com/in/chhavi30m/'>
+              <i class=" fa fa-brands fa-linkedin"></i>
               </a>
             </span>
           </div>
@@ -224,22 +172,40 @@ const Team = () => {
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Siddhanth Bhat</h2>
             <h3 class="text-gray-500 mb-3">Head of Design and Graphics</h3>
-            <p class="mb-4">Life is soup, I am fork.</p>
+            <p class="mb-4">Siddhanth is a UG25 who loves telling stories, and solving problems he doesn't really fully understand himself either. He's majoring in Computer Science, and minoring in Panacea. No, he doesn't really know what's going on with that either. If you ask him a question, he may answer it, or spend an hour talking about 80 other things. Be prepared for either eventuality...</p>
+            <span class="inline-flex">
+              <a class="text-gray-700" href="https://www.linkedin.com/in/siddhanthbhat/">
+              <i class="fa fa-brands fa-linkedin"></i>
+              </a>
+              <a class="ml-2 text-gray-700" href='https://siddhanthbhat.com'>
+              <i class=" fa fa-solid fa-link"></i>
+              </a>
+              <a class="ml-2 text-gray-700" href='https://www.instagram.com/siddhanthbhat21/'>
+              <i class="fa fa-brand fa-instagram"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center mb-4" src="https://dummyimage.com/203x203"></img>
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-white">Tanishk Sawant</h2>
+            <h3 class="text-gray-500 mb-3">Head of Cntent</h3>
+            <p class="mb-4">Some caption provided by user, 10-15 words</p>
             <span class="inline-flex">
               <a class="text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-twitter"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-linkedin"></i>
+
               </a>
               <a class="ml-2 text-gray-700">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
+                              <i class="fa fa-brands fa-instagram"></i>
+
               </a>
             </span>
           </div>
