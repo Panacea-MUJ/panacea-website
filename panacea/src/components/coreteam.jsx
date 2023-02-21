@@ -157,10 +157,10 @@ const Team = () => {
             </a>
             <span class="inline-flex">
               <a class="text-gray-700" href='https://www.instagram.com/chhavi30m/' >
-              <i class="fa fa-brands fa-instagram"></i>
+              <i class="fa fa-brands fa-linkedin"></i>
               </a>
               <a class="ml-2 text-gray-700" href='https://www.linkedin.com/in/chhavi30m/'>
-              <i class=" fa fa-brands fa-linkedin"></i>
+              <i class=" fa fa-brands fa-instagram"></i>
               </a>
             </span>
           </div>
