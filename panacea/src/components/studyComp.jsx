@@ -14,7 +14,7 @@ const StudyComp = () =>{
       class="col-span-6 xl:place-self-top mb-8 pt-[20%] xl:mt-0 lg:mb-0 z-50"
     >
       <h1
-        class="title-font sm:text-9xl text-8xl mb-4 font-medium text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-500 hero"
+        class="title-font sm:text-8xl text-7xl mb-4 font-medium text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-500 hero"
       >
         Resources
       </h1>

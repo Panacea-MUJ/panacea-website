@@ -24,7 +24,7 @@ const Teacher = () => {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"></img>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Dr. Sandeep</h2>
+            <h2 class="title-font font-medium text-lg text-white">Dr. Sandeep Kumar Sharma</h2>
             <h3 class="text-gray-500 mb-3"> Teacher Coordinator</h3>
             <p class="mb-4">..</p>
           </div>
